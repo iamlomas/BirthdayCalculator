@@ -1,0 +1,3 @@
+rootProject.name = "BirthdayCalculator"
+include ':app'
+include ':Birthday-Calculator'
