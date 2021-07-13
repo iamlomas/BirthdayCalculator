@@ -106,7 +106,7 @@ class BirthdayCalculator {
 
         return if (ageMonth == 11 && (ageDays == 31 || ageDays == 30)) {
             if (ageYear == 1) {
-                "${ageYear + 1} year i.e., $totalDays days"
+                "${ageYear + 1} years i.e., $totalDays days"
             } else {
                 "${ageYear + 1} years i.e., $totalDays days"
             }
