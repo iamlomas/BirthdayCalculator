@@ -10,8 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val age = BirthdayCalculator.calculateAge(2000, 1, 12)
-        val nextBirthdayCelebration = BirthdayCalculator.calculateNextBirthDate(2000, 1, 12)
+        val age = BirthdayCalculator().calculateAge(2000, 1, 12)
+        val nextBirthdayCelebration = BirthdayCalculator().calculateNextBirthDate(2000, 1, 12)
 
         findViewById<TextView>(R.id.tvText).apply {
             text = "My age is $age"

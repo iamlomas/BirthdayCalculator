@@ -3,7 +3,7 @@ package com.iamlomas.birthday_calculator
 import java.util.*
 
 /** Calculates the current age or time remaining for next birthday celebration. */
-object BirthdayCalculator {
+class BirthdayCalculator {
     private val currentDate = Calendar.getInstance()
     private val currentDay = currentDate.get(Calendar.DAY_OF_MONTH)
     private val currentMonth: Int = currentDate.get(Calendar.MONTH)
